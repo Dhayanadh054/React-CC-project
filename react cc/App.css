@@ -1,0 +1,258 @@
+.app {
+    text-align: center;
+  }
+  
+  .portal {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+    background-image: url("https://images8.alphacoders.com/458/458482.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .portal header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:350px;
+  }
+  
+  .portal-title {
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .logo {
+    color:#ccc;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    position: relative;
+    bottom:300px;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar input {
+  
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .separator {
+    border: none;
+    height: 4px;
+    background-color: #ff0000; /* Line color */
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .resorts-section {
+    position: relative;
+    bottom:200px;
+    background-color: #f0f8ff; /* Background color for the section */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .resorts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .resort-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 220px;  /* Fixed width */
+    height: 350px; /* Fixed height */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .resort-image {
+    width: 100%;
+    height: 150px;  /* Fixed height for images */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .highlighted-price {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.2em;
+  }
+  
+  .book-now-button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .book-now-button:hover {
+    background-color: #218838;
+  }
+  
+  .view-bookings-button, .logout-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-bookings-button:hover, .logout-button:hover {
+    background-color: #b30000;
+  }
+  
+  .card {
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px; /* Padding inside the card */
+    margin: 10px 0; /* Margin above and below the card */
+    transition: transform 0.2s; /* Smooth transform on hover */
+    width: 300px; /* Set a fixed width for the card */
+    position: relative; /* Position the card relative to its container */
+    bottom:350px;
+    left:600px;
+    z-index: 100; /* Ensure it appears above other elements */
+  }
+  
+  .error-message {
+    color: red; /* Red text for error messages */
+    font-size: 0.9em; /* Slightly smaller font */
+    margin-top: 5px; /* Spacing above the error message */
+  }
+  
+  .small-card {
+    width: 250px; /* Smaller width for the card */
+  }
+  
+  .booking-confirmation h3 {
+    margin-bottom: 10px; /* Spacing below the heading */
+  }
+  
+  .booking-confirmation p {
+    margin: 5px 0; /* Spacing between paragraphs */
+  }
+  
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #b30000;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .options .forgot-password, .options .sign-up {
+    background: none;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .options .forgot-password:hover, .options .sign-up:hover {
+    text-decoration: underline;
+  }
+  
+  .booking-details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-details h3 {
+    margin: 0 0 10px;
+  }
+  
+  .booking-confirmation{
+    color:black;
+  }
+  
+  .booking-details p {
+    margin: 5px 0;
+  }
+  
+  .booking-details label {
+    margin-right: 10px;
+  }
